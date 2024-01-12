@@ -1,0 +1,484 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*custom styles*/
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+main{
+    background-color: rgb(184, 180, 180);
+}
+.container{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head{
+    max-width: 900px;
+    margin: 0 auto;
+    padding-bottom: 32px;
+}
+.head .nav a{
+    margin-left: 32px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+}
+.head .nav .home{
+    color: #69C6BA;
+}
+.head-span{
+    font-weight: 700;
+    font-size: 22px;
+    color: black;
+}
+/*Begin-section*/
+.bg{
+    background: linear-gradient(rgba(17, 17, 17,0.7),rgba(16, 15, 15,0.7)),url(Assests/banner.jpg);
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+.begin{
+    padding: 52px 0;
+}
+.down-menu{
+    margin-bottom: 42px;
+}
+.circle{
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+.big{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+h1{
+    color: white;
+    font-size: 32px;
+}
+.begin-para{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 12px;
+}
+.down-menu{
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 50%;
+    background-color: teal;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+.down-menu a{
+    color: white;
+    font-size: 12px;
+}
+/*sub-box*/
+.sub-box{
+    width: 700px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 42px;
+}
+.first-line{
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 12px;  
+}
+.first-line-para{
+    margin-right: 42px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.second-span{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 82px;
+    justify-content: space-around;
+}
+.third-line{
+    display: flex;
+}
+.third-para{
+    margin-right: 42px;
+}
+.third-para-long{
+    margin-right: 162px;
+}
+.second-span{
+    margin-bottom: 32px;
+}
+.head{
+    color: gray;
+    font-size: 12px;
+}
+.sub-box .span-arrow a{
+    color: grey;
+}
+.third-para{
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.long{
+    color: gray;
+    font-size: 14px;
+}
+.two{
+    margin-right: 162px;
+    margin-left: 22px;
+}
+.check{
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 8px;
+}
+/*journey*/
+.journey{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 42px;
+}
+.journey-main{
+    background-color: rgb(235, 225, 225);
+
+}
+.journey-para{
+font-size: 26px;
+margin: 16px;
+}
+.journey-text{
+    font-size: 14px;
+    color: rgb(57, 50, 50);
+}
+.journey-btn{
+    color: azure;
+    background-color: #69C6BA;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px;
+    display: inline-block;
+    margin-top: 22px;
+    margin-bottom: 36px;
+
+}
+/*Europe section*/
+.europe-flex{
+    display: flex;
+    background-color: white;
+}
+.europe-col{
+    width: 50%;
+}
+.europe-col img{
+    width: 100%;
+}
+.europe-heading{
+    font-size: 26px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.europe-para{
+    font-size: 12px;
+    line-height: 1.3;
+    color: beige;
+    margin-bottom: 22px;
+}
+.europe-btn{
+    background-color: aliceblue;
+    color: #69C6BA;
+    padding: 10px;
+    font-size: 12px;
+}
+.europe-btn a{
+    font-size: 8px;
+}
+.europe-aside{
+    background-color: #69C6BA;
+    padding: 22px;
+    height: 200px;
+    margin-top: 62px;
+   position: relative;
+   right: 5%;
+}
+/*Asia-section*/
+.asia-flex{
+    display: flex;
+    background-color: white;
+}
+.asia-col{
+    width: 50%;
+}
+.asia-col img{
+    width: 100%;
+}
+.asia-heading{
+    font-size: 26px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.asia-para{
+    font-size: 12px;
+    line-height: 1.3;
+    color: beige;
+    margin-bottom: 22px;
+}
+.asia-btn{
+    background-color: aliceblue;
+    color: #69C6BA;
+    padding: 10px;
+    font-size: 12px;
+}
+.asia-btn a{
+    font-size: 8px;
+}
+.asia-aside{
+    width: 50%;
+    background-color: rgb(218, 89, 179);
+    height: 200px;
+    margin-top: 62px;
+    padding: 22px;
+    position: relative;
+    left: 5%;
+}
+/*America-section*/
+.america-flex{
+    display: flex;
+    background-color: white;
+}
+.america-col{
+    width: 50%;
+}
+.america-col img{
+    width: 100%;
+}
+.america-heading{
+    font-size: 26px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.america-para{
+    font-size: 12px;
+    line-height: 1.3;
+    color: beige;
+    margin-bottom: 22px;
+}
+.america-btn{
+    background-color: aliceblue;
+    color: #69C6BA;
+    padding: 10px;
+    font-size: 12px;
+}
+.america-btn a{
+    font-size: 8px;
+}
+.america-aside{
+    width: 50%;
+    background-color: #69C6BA;
+    height: 200px;
+    margin-top: 62px;
+    padding: 22px;
+    position: relative;
+    right: 5%;
+}
+/*Continents-section*/
+.continents-flex{
+    display: flex;
+    justify-content: space-between;
+    background-color: #69C6BA;
+}
+.continents-flex .continent-name{
+    font-size: 10px;
+    color: white;
+}
+.continent-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.asia{
+    background-color: rgb(218, 89, 179);
+}
+/*Hotels-section*/
+.hotels-section .container{
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: white;
+}
+.container-hotel{
+    border: 1px solid rgb(246, 231, 231);
+    width: 700px;
+    margin: 0 auto;
+}
+.hotels-flex{
+   
+    padding-top: 32px;
+    display: flex;
+}
+.hotels-column{
+    width: 50%;
+    padding-left:42px;
+    margin-top: 22px;
+}
+.hotels-col{
+    width: 25%;
+}
+.hotels-col img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+.last-hotel{
+    display: flex;
+    background-color: #69C6BA;
+}
+.hotel-heading{
+    font-size: 14px;
+    margin-bottom: 12px;
+
+}
+.hotel-location{
+    color: purple;
+    margin-bottom: 22px;
+}
+.hotel-text{
+    color: rgb(67, 66, 66);
+    font-size: 12px;    
+}
+.last-dollars{
+    padding: 22px;
+}
+.currency{
+    margin-top: 42px;
+    color: white;
+    font-size: 26px;
+}
+.continue{
+    font-size: 10px;
+    color: white;
+}
+/*Explore*/
+.moreexplore{
+    text-align: center;
+    margin-top: 32px;
+    padding-bottom: 42px;
+    font-size: 16px;
+}
+.moreexplore a{
+    text-decoration: none;
+    color: white;
+    background-color: #69C6BA;
+    padding: 6px;
+}
+/*maps*/
+.maps{
+    position: relative;
+}
+form{
+    width: 400px;
+    position: absolute;
+    top:10%;
+    left: 50%;
+    padding: 22px;
+    background-color: white;
+}
+input{
+display: block;
+width: 100%;
+margin-right: 12px;
+margin-bottom: 14px;
+display: block;
+width: 100%;
+padding: 8px;
+border: 0;
+font-size: 12px;
+background-color: #f0eded;
+
+}
+textarea{
+    display: block;
+    width: 100%;
+    background-color: #f0eded;
+}
+button{
+    background-color: #69C6BA;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 8px;
+    margin-top: 12px;
+    display: block;
+    width: 100%;
+}
+/*footer*/
+.footpara{
+    background-color: #69C6BA;
+    text-align: center;
+    font-size: 12px;
+    padding: 22px;
+    color: white;
+}
